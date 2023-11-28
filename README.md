@@ -36,7 +36,7 @@ pip install openpyxl dnspython
 
 ### **Executable Version**
 
-For ease of use, an executable version of the application is also available, which does not require a separate Python installation.
+For ease of use, an executable version of the application is also available, which does not require a separate Python installation. (Check Releases)
 
 ## **Usage**
 
@@ -68,7 +68,7 @@ Contributions to the Email Verifier Tool are welcome. If you have suggestions fo
 
 ## **License**
 
-This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
+This project is licensed under the [MIT License](https://github.com/ravitejachillara/mellow/blob/main/GPL-MIT-License.txt).
 
 ## **Contact**
 

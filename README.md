@@ -58,9 +58,6 @@ For ease of use, an executable version of the application is also available, whi
 - Click on "Save As" to choose the destination for the output file.
 - The application will process the emails and update their status in the new Excel file.
 
-### **Executable Version**
-
-- Simply run the executable file, and follow the same steps as above to process email addresses.
 
 ## **Contributing**
 

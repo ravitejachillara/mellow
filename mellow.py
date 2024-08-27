@@ -30,26 +30,22 @@ def process_excel_file(input_file_path, output_file_path, progress_callback):
     workbook = openpyxl.load_workbook(input_file_path)
     sheet = workbook.active
     total_rows = sheet.max_row - 1
-
     for index, row in enumerate(sheet.iter_rows(min_row=2, min_col=1, max_col=2), start=1):
         email_cell = row[0]
         status_cell = row[1]
         email = email_cell.value
-
         if email:
             status_cell.value = verify_email(email)
-
         progress = (index / total_rows) * 100
         progress_callback(progress)
-
     workbook.save(output_file_path)
 
 # Tkinter UI Class
 class EmailVerifierApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("Mellow - Email Verifier by Ravi Teja Chillara")
-        self.geometry("380x140")
+        self.title("Mellow - Email Verifier by RaTeChi")
+        self.geometry("420x180")
 
         # UI Elements
         ttk.Button(self, text="Open File", command=self.open_file).pack(pady=10)
